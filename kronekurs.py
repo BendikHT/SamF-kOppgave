@@ -115,14 +115,14 @@ ax.fill_between(
 # TITLES
 # -----------------------------
 ax.set_title(
-    "KRONEKURS THROUGH TIME",
+    "KRONEKURS GJENNOM TID",
     fontsize=30,
     fontweight="bold",
     pad=25,
 )
 
 subtitle = (
-    "A cinematic visualization of economic movement"
+    "En cinematisk visualisering av økonomisk utvikling"
 )
 
 fig.text(
@@ -137,8 +137,8 @@ fig.text(
 # -----------------------------
 # AXIS STYLING
 # -----------------------------
-ax.set_xlabel("Year", fontsize=16, labelpad=12)
-ax.set_ylabel("Exchange Rate", fontsize=16, labelpad=12)
+ax.set_xlabel("År", fontsize=16, labelpad=12)
+ax.set_ylabel("Kronekurs", fontsize=16, labelpad=12)
 
 ax.tick_params(axis='x', labelsize=12)
 ax.tick_params(axis='y', labelsize=12)
