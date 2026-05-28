@@ -162,7 +162,7 @@ ax.margins(x=0.02)
 # COLORBAR
 # -----------------------------
 cbar = fig.colorbar(lc, ax=ax, pad=0.02)
-cbar.set_label("Kronekurs Intensity", fontsize=13)
+cbar.set_label("Kronekurs Intensitet", fontsize=13)
 
 # -----------------------------
 # WATERMARK
